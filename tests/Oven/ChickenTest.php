@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class ChickenTest extends TestCase
 {
-    public function testCarHas2Grills()
+    public function testChickenHas6Grills()
     {
         //GIVE-> Escenario
         // Tener acceso al objeto Chicken
@@ -16,10 +16,10 @@ class ChickenTest extends TestCase
         // Obtener el numero de grills
         $sut = $chicken->getGrills();
         //THEN-> Resultado
-        $this->assertEquals(2, $sut);
+        $this->assertEquals(6, $sut);
     }
 
-    public function testCarHasStartDegrees0()
+    public function testChickenHasStartDegrees0()
    {
         //GIVE-> Escenario
         // Tener acceso al objeto Chicken
@@ -31,7 +31,7 @@ class ChickenTest extends TestCase
         $this->assertEquals(0, $sut);
    }
 
-   public function testchickenWhenTemperatureDegreesIncreaseInNumber()
+   public function testChickenWhenTemperatureDegreesIncreaseInNumber()
    {
         //GIVE-> Escenario
         // Tener acceso al objeto Chicken

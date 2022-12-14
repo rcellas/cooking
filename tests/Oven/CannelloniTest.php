@@ -12,7 +12,7 @@ class CannelloniTest extends TestCase
     {
         //GIVE-> Escenario
         // Tener acceso al objeto Cannelloni
-        $cannelloni = new Cannelloni("red");
+        $cannelloni = new Cannelloni("quemado");
         //WHEN-> Accion
         // Obtener el numero de grills
         // sut = system under test
